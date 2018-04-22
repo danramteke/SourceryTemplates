@@ -13,7 +13,7 @@ templates:
   - ~/.SourceryTemplates/LinuxMain.stencil
 output: ./Tests/LinuxMain.swift
 args:
-  testimports: "@testable import UnderwayHeartbeatTests"
+  testimports: "@testable import MyModuleTests"
 ```
 
 3. Use Mint to run Sourcery. `mint run Sourcery` in your project's root directory to update your `LinuxMain.swift`
