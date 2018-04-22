@@ -2,7 +2,7 @@
 sourcery templates
 
 
-`git clone github.com/danramteke/SourceryTemplates/ .SourceryTemplates`
+`git clone git@github.com:danramteke/SourceryTemplates.git ~/.SourceryTemplates`
 
 And then in your sourcery config file, you can refer to this directory
 
