@@ -1,12 +1,11 @@
 # SourceryTemplates
-sourcery templates
 
+## Usage
 
-`git clone git@github.com:danramteke/SourceryTemplates.git ~/.SourceryTemplates`
+1. `git clone git@github.com:danramteke/SourceryTemplates.git ~/.SourceryTemplates`
 
-And then in your sourcery config file, you can refer to this directory
+2. In your Sourcery config file in your project's root directory, you can refer to this template directory. Here is an example `.sourcery.yml` file:
 
-file: .sourcery.yml
 ```
 sources:
   - ./Tests/
@@ -17,9 +16,10 @@ args:
   testimports: "@testable import UnderwayHeartbeatTests"
 ```
 
-then you can run `mint run Sourcery` in your project's root directory to update your `LinuxMain.swift`
+3. Use Mint to run Sourcery. `mint run Sourcery` in your project's root directory to update your `LinuxMain.swift`
 
 
-Sourcery: https://github.com/krzysztofzablocki/Sourcery#configuration-file
+## Referenced Projects
 
-Mint: https://github.com/yonaskolb/Mint
+- Sourcery: https://github.com/krzysztofzablocki/Sourcery#configuration-file
+- Mint: https://github.com/yonaskolb/Mint
